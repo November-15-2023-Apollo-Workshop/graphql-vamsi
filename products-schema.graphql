@@ -146,7 +146,6 @@ type Review @key(fields: "id") {
   user: User!
 }
 
-"""#A Subscription for whenever a new review has been added."""
 type Subscription {
   reviewAdded: Review
 }
